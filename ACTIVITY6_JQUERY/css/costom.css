@@ -1,0 +1,60 @@
+header {
+    background-color: maroon;
+    color: gold;
+    text-align: center;
+    padding: 10px;
+    border: solid 1px white;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #F5F5F5; 
+}
+
+.container a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.container a:hover {
+    color: #FFD700;
+    padding: 3px;
+}
+nav {
+    background-color:white;
+    float: left;
+    width: 20%;
+    height: 550px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white; 
+    font-size: 15px;
+}
+nav ul a:hover{
+    color: gold; 
+}
+
+article {
+    background-color: rgb(214, 214, 224);
+    float: left;
+    color: #800000; 
+    width: 75%;
+    height: 550px;
+    padding-left: 5%;
+}
+footer {
+    text-align: center;
+    background-color: #800000;
+    color: gold;
+    padding: 10px; 
+    font-size: 15px;
+    border: solid 1px white;
+}
